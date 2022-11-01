@@ -29,6 +29,14 @@ On the other hand, visualcrossing allows for historical weather data for free. A
 
 After our data exploration and cleaning, we merged weather data from VISUAL CROSSING WEATHER | API and flight data from Airline Delay and Cancellation Data, 2009 - 2018 | Kaggle into a new dataframe on the columns of “Date” and “Airport”. This allowed us to align the weather specific to the airport and flight cancellation date.
 
+![combined_flight_weather_data](https://user-images.githubusercontent.com/112193116/199295029-47905b87-2aab-46cf-a695-702913127f8e.png)
+
+![cancelled_flight_weatherdata](https://user-images.githubusercontent.com/112193116/199295026-06bcad8f-37f9-4155-9982-9f462900a442.png)
+
+![monthly_averages_data1](https://user-images.githubusercontent.com/112193116/199295032-c7a3f689-9ead-4d4c-b6ea-3b8aaea17347.png)
+
+![monthly_averages_data2](https://user-images.githubusercontent.com/112193116/199295034-57cc5d91-e2a7-4186-852c-6cfd9023280b.png)
+
 #LOCATION
 
 **Heatmap Weighted by Cancellation Numbers**
