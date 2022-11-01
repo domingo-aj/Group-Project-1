@@ -159,13 +159,19 @@ The chart shows the average wind speed (mph) in comparison to the total canceled
 
 The below line graph shows the flight cancellation numbers along the months of the years (2015-2018). From the graph,the cancellations seem to be very high in the month of Feb (2015).
 
+![Cancel_Number_by_Month](https://user-images.githubusercontent.com/112193116/199299777-335ac0d1-cbea-45b7-a963-1c2cb119bf2f.png)
+
 **Cancellation / Non-Cancellation Numbers by Months For Each Year**
 
 Over the course of January 2015 - December 2018, there were a few instances in which canceled flights outnumbered non-cancelled flights. The below graph shows both the trends of cancellation and non-cancellations throughout the months of the year.
 
+![CancelsandNon-cancels_Number_by_Month](https://user-images.githubusercontent.com/112193116/199299782-2877ee94-c46b-49b8-b154-ccc1675cfe10.png)
+
 **Weather Flight Cancellations From 2015 - 2018**
 
 The below bar chart indicates the cancellations across the years of 2015-2018 from the sample data set. 2015 had the highest number of weather-specific flight cancellations at 34% compared to other years. 
+
+![Cancellation_years](https://user-images.githubusercontent.com/112193116/199299779-ad51d087-d417-4469-9a21-01a8c641d826.png)
 
 2015 Canceled Flights: 13,503
 
@@ -179,25 +185,37 @@ The below bar chart indicates the cancellations across the years of 2015-2018 fr
 
 This heat map displays volume of weather related cancellations over the course of a calendar year and broken down by day. Overall, we can see the lower concentrations of cancellations are in the summer, and a higher concentration of cancellations in the earlier part of the year (Jan - Mar). To investigate if there are more weather-related cancellations in different areas, we zoom in on each airport.
 
+![all_airports_wc_daily](https://user-images.githubusercontent.com/112193116/199299919-03cdaac9-2086-4b77-9af8-d15f2ee3600f.png)
+
 **DFW Cancellation Calendar Heatmap**
 
 The heatmap calendar for DFW, a centrally located southern airport, we see higher concentrations of weather related cancellations in the winter months (Dec - Feb). Max cancellations for one day at DFW across 2015-2018 is 480.
+
+![DFW_wc_daily](https://user-images.githubusercontent.com/112193116/199299923-bfc4476d-21f5-4fd9-87ce-387635a46177.png)
 
 **ATL Cancellation Calendar Heatmap**
 
  The heatmap calendar for ATL, we can observe concentrations of weather related cancellations in December and January. Max cancellations for one day at ATL across 2015-2018 is 536.
  
+ ![ATL_wc_daily](https://user-images.githubusercontent.com/112193116/199299921-626c3ee2-e370-4a82-9fbb-29385e012ce5.png)
+ 
 **DEN Cancellation Calendar Heatmap**
 
 The heatmap calendar for DEN, we can observe concentrations of weather related cancellations in December and January. Max cancellations for one day at DEN across 2015-2018 is 596.
+
+![DEN_wc_daily](https://user-images.githubusercontent.com/112193116/199299922-c5132e91-8f22-425a-b587-6498630e9802.png)
 
 **ORD Cancellation Calendar Heatmap**
 
 The heatmap calendar for ORD, we can observe concentrations of weather related cancellations between the months of Nov-Jan. Max cancellations for one day at ORD across 2015-2018 is 505.
 
+![ORD_wc_daily](https://user-images.githubusercontent.com/112193116/199299925-fda387ea-057a-4508-9e2c-93d5b274c9d4.png)
+
 **LAX Cancellation Calendar Heatmap**
 
 The heatmap calendar for LAX shows the lowest numbers of weather related cancellations, we can observe concentrations of cancellations between the months of Dec-Mar. However, the max cancellations for one day at LAX across 2015-2018 is 53, showing that LAX experiences the least amount of weather related cancellations by day.
+
+![LAX_wc_daily](https://user-images.githubusercontent.com/112193116/199299924-13bda2fb-8164-47fc-abe2-1d64c248174b.png)
 
 # Chi-Square Test on Flight Cancellations from Weather
 
