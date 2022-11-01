@@ -145,7 +145,11 @@ The chart shows the average maximum temperature in comparison to the total cance
 
 4.The r-squared is: 0.005518412470719093
 
+![avg_wind_speed_vs_cancels](https://user-images.githubusercontent.com/112193116/199299198-b22a19b4-28a8-4ccf-8fc8-f95896804784.png)
+
 **Average Wind Speed vs Total Cancellations by Month**
+
+![monthly_windspeed_vs_cancels](https://user-images.githubusercontent.com/112193116/199299240-76f4c8df-6024-4b20-a618-2692c2fc3899.png)
 
 The chart shows the average wind speed (mph) in comparison to the total canceled flights by month for the sample data set. The number of cancellations per month from January 2015 to December 2018 shows consistent spikes during the month January across all years. The average wind speed (mph) from the sample data shows no correlation. 
 
