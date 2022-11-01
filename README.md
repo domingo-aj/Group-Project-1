@@ -37,27 +37,37 @@ After our data exploration and cleaning, we merged weather data from VISUAL CROS
 
 ![monthly_averages_data2](https://user-images.githubusercontent.com/112193116/199295034-57cc5d91-e2a7-4186-852c-6cfd9023280b.png)
 
-#LOCATION
+# LOCATION
 
 **Heatmap Weighted by Cancellation Numbers**
 
 The map presented below shows the number of cancellations in each airport.
 
+![Cancel_heatmap](https://user-images.githubusercontent.com/112193116/199296102-10d1078b-f85f-4842-93ba-f0828d7252f3.png)
+
 **Heatmap Weighted by Canceled and Non-Cancelled Numbers**
 
 The map presented below shows the number of canceled,non-cancelled and total flights in each airport.The inner circle at each airport is weighted by the total canceled flights and the outer rectangle is weighted by the total non-cancelled flights.
 
-**Flight Cancellations by Airport **
+![cancel_noncancel_heatmap](https://user-images.githubusercontent.com/112193116/199296106-c7494123-6457-4caf-b69e-165b3ac909fc.png)
+
+**Flight Cancellations by Airport**
 
 The sample data below reflects the percentage of flight cancellations caused by weather factors for five major US airports. The percentage of cancellations is greatest in Chicago (ORD) compared to other airports at 33.8% of all sample data retrieved. 
 
-Total Canceled Flights:
+**Total Canceled Flights:**
 
 ORD: 13,418 Flight Cancellations
+
 LAX: 2,372 Flight Cancellations
+
 DFW: 10,181 Flight Cancellations
+
 DEN: 5,989 Flight Cancellations
+
 ATL: 7,701 Flight Cancellations
+
+![percent_cancel_airport](https://user-images.githubusercontent.com/112193116/199296279-17393bee-74de-4d9f-84ae-90789551b048.png)
 
 # PRECIPITATION 
 
