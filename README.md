@@ -5,6 +5,9 @@
 **Flight Data**
 
 In order to analyze flight cancellations, a fortunately rare occurrence, we would need information about LOTS of flights. Thankfully, a very large free dataset was found on kaggle.com.
+
+<img width="499" alt="Screen Shot 2022-11-01 at 12 43 04 PM" src="https://user-images.githubusercontent.com/112193116/199294365-09671513-78ff-4172-bac1-c50ae734d2fa.png">
+
 At over 2GBs, the dataset appeared to have every domestic US flight from 2009 - 2018, and had all the information that one could reasonably expect such as expected time of departure/landing, cancellation reason, delay times, etc. There were, however, two issues with this dataset.
 The first issue is that while the data has cancellation codes that determine between weather, airline issues, security delays, etc. there is no way to tell which airport caused the cancellation. That is to say, if a flight was weather-cancelled, one could not determine if it was cancelled because there was a storm at the origin airport, or the destination airport. For this reason, we would not be able to link each flight to a specific weather palette.
 The second issue has to do with the size of the dataset. As a team, we needed to be able to share our clean filtered data through GitHub. This is not possible with 2GBs. In addition, making api calls for tens of millions of rows of data was not an option.
@@ -17,6 +20,8 @@ When the project was first started, it was thought that we would use data from h
 **Weather Data**
 
 For the weather data, we had a few API options. At first, we believed that weatherapi.com would be the way to go because the entire team had experience with this API. We assumed that we would have no problems getting the data we needed and went about getting all of the flight and location data tidied up and ready to get weather data for every single flight. A few days into the project however, one team member noticed that weatherapi.com’s free version does not allow calls for historical weather data, only current data.On top of that, for the amount of flights we had data for, even a professional account didn’t have that many API calls.
+
+<img width="232" alt="image (2)" src="https://user-images.githubusercontent.com/112193116/199294361-681f0ac1-4e80-4331-8ef3-6003bff1928f.png">
 
 On the other hand, visualcrossing allows for historical weather data for free. As described above, the team’s strategy changed a few days in and we decided to get information for days rather than each individual flight. For this amount of data, the team was able to pool our free API calls together and get all of the needed information.
 
