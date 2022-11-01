@@ -219,6 +219,8 @@ The heatmap calendar for LAX shows the lowest numbers of weather related cancell
 
 # Chi-Square Test on Flight Cancellations from Weather
 
+![Chisquared](https://user-images.githubusercontent.com/112193116/199301463-06dfb833-d495-49b2-939b-7426acc35cad.png)
+
 Since the chi-square value of 12603.59 at a confidence level of 95% exceeds the critical value of 62.83, we conclude that the differences seen in the number of cancellations by months of year are statistically significant.
 
 
