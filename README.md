@@ -83,9 +83,13 @@ ATL: 7,701 Flight Cancellations
 
 5.The r-squared is: 0.001249106831586809
 
+![avg_precipitation_vs_cancels](https://user-images.githubusercontent.com/112193116/199297995-76505e36-26fb-4255-93e7-0b297e36304a.png)
+
 **Average Precipitation vs. Total Cancellations by Month**
 
 The chart shows the average precipitation in comparison to the total canceled flights by month for the sample data set. The number of cancellations per month from January 2015 to December 2018 shows consistent spikes during the month January across all years. The average precipitation (in) from January 2015 to December 2018 shows a relatively consistent range falling between 0 - 1.0 (in) with the exception of spikes above 2 inches between July - December of 2015 and March to August of 2017.
+
+![monthly_precip_vs_cancels](https://user-images.githubusercontent.com/112193116/199297915-9ed003aa-4830-4982-871e-4c93dc49d8c9.png)
 
 **Cancellations Due to Precipitation**
 
@@ -96,6 +100,8 @@ Precipitation type and the canceled numbers.
 Rain: 14,592
 Rain + Snow: 8,420
 Snow: 4,676
+
+![percent_cancel_preciptype](https://user-images.githubusercontent.com/112193116/199298069-a5ece2af-7208-4aa3-955f-f15da86254c4.png)
 
 # TEMPERATURE
 
