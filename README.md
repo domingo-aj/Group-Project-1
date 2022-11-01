@@ -115,6 +115,8 @@ As the average max temperature (F) increased, the average precipitation (In) inc
 
 3.The regressions line and the r-value indicate that there is a relationship between average max temp (F) and avg. precipitation (In). 
 
+![avg_max_temp_vs_avg_precipitation](https://user-images.githubusercontent.com/112193116/199298571-365682dd-b92d-4f2b-b319-c7b41aaac36f.png)
+
 **Avg. Max Temp (F) by Monthly Cancellations**
 
 1.The correlation between both factors is -0.52
@@ -123,7 +125,11 @@ As the average max temperature (F) increased, the average precipitation (In) inc
 
 3.During warmer weather, there were less total canceled flights by month. From the sampled data, we can reject the null hypothesis. Therefore, average maximum temperature will result in an impact on monthly flight cancellations.
 
+![avg_max_temp_vs_cancels](https://user-images.githubusercontent.com/112193116/199298511-79981b9e-546e-4a02-ac7e-c2acaf736a73.png)
+
 **Average Temperature vs Total Cancellations by Month**
+
+![monthly_temp_vs_cancels](https://user-images.githubusercontent.com/112193116/199298480-2559bff3-1d10-4956-b820-8f4d9ee7951b.png)
 
 The chart shows the average maximum temperature in comparison to the total canceled flights by month for the sample data set. The number of cancellations per month from January 2015 to December 2018 shows consistent spikes during the month January across all years. The average temp (F) from the sample data set peaks each year in July at approximately ~85 (F).
 
