@@ -6,7 +6,7 @@
 
 In order to analyze flight cancellations, a fortunately rare occurrence, we would need information about LOTS of flights. Thankfully, a very large free dataset was found on kaggle.com.
 
-<img width="499" alt="Screen Shot 2022-11-01 at 12 43 04 PM" src="https://user-images.githubusercontent.com/112193116/199294365-09671513-78ff-4172-bac1-c50ae734d2fa.png">
+<img width="499" alt="Screen Shot 2022-11-01 at 12 43 04 PM" src="https://user-images.githubusercontent.com/112193116/199369361-af74fa23-2a6d-4adf-99b0-c2b2d2e3a195.png">
 
 At over 2GBs, the dataset appeared to have every domestic US flight from 2009 - 2018, and had all the information that one could reasonably expect such as expected time of departure/landing, cancellation reason, delay times, etc. There were, however, two issues with this dataset.
 The first issue is that while the data has cancellation codes that determine between weather, airline issues, security delays, etc. there is no way to tell which airport caused the cancellation. That is to say, if a flight was weather-cancelled, one could not determine if it was cancelled because there was a storm at the origin airport, or the destination airport. For this reason, we would not be able to link each flight to a specific weather palette.
@@ -21,7 +21,7 @@ When the project was first started, it was thought that we would use data from h
 
 For the weather data, we had a few API options. At first, we believed that weatherapi.com would be the way to go because the entire team had experience with this API. We assumed that we would have no problems getting the data we needed and went about getting all of the flight and location data tidied up and ready to get weather data for every single flight. A few days into the project however, one team member noticed that weatherapi.com’s free version does not allow calls for historical weather data, only current data.On top of that, for the amount of flights we had data for, even a professional account didn’t have that many API calls.
 
-<img width="232" alt="image (2)" src="https://user-images.githubusercontent.com/112193116/199294361-681f0ac1-4e80-4331-8ef3-6003bff1928f.png">
+<img width="232" alt="image (2)" src="https://user-images.githubusercontent.com/112193116/199369356-dcf5a223-c249-4ef1-bf46-80f7bfb7077c.png">
 
 On the other hand, visualcrossing allows for historical weather data for free. As described above, the team’s strategy changed a few days in and we decided to get information for days rather than each individual flight. For this amount of data, the team was able to pool our free API calls together and get all of the needed information.
 
@@ -29,13 +29,13 @@ On the other hand, visualcrossing allows for historical weather data for free. A
 
 After our data exploration and cleaning, we merged weather data from VISUAL CROSSING WEATHER | API and flight data from Airline Delay and Cancellation Data, 2009 - 2018 | Kaggle into a new dataframe on the columns of “Date” and “Airport”. This allowed us to align the weather specific to the airport and flight cancellation date.
 
-![combined_flight_weather_data](https://user-images.githubusercontent.com/112193116/199295029-47905b87-2aab-46cf-a695-702913127f8e.png)
+![combined_flight_weather_data](https://user-images.githubusercontent.com/112193116/199369354-a58d2e0a-02e1-424b-82fb-d2ef31c3a660.png)
 
-![cancelled_flight_weatherdata](https://user-images.githubusercontent.com/112193116/199295026-06bcad8f-37f9-4155-9982-9f462900a442.png)
+![cancelled_flight_weatherdata](https://user-images.githubusercontent.com/112193116/199369353-be7018f2-b728-4680-ac67-12df1a451082.png)
 
-![monthly_averages_data1](https://user-images.githubusercontent.com/112193116/199295032-c7a3f689-9ead-4d4c-b6ea-3b8aaea17347.png)
+![monthly_averages_data1](https://user-images.githubusercontent.com/112193116/199369358-c1e39464-43dc-4eb6-951f-041a781d2982.png)
 
-![monthly_averages_data2](https://user-images.githubusercontent.com/112193116/199295034-57cc5d91-e2a7-4186-852c-6cfd9023280b.png)
+![monthly_averages_data2](https://user-images.githubusercontent.com/112193116/199369359-7f2ed84d-84ff-47dc-bdc3-bb5897ca4fb0.png)
 
 # LOCATION
 
@@ -43,13 +43,13 @@ After our data exploration and cleaning, we merged weather data from VISUAL CROS
 
 The map presented below shows the number of cancellations in each airport.
 
-![Cancel_heatmap](https://user-images.githubusercontent.com/112193116/199296102-10d1078b-f85f-4842-93ba-f0828d7252f3.png)
+![Cancel_heatmap](https://user-images.githubusercontent.com/112193116/199369349-0e602e72-2dd6-4279-99f8-5c4d3c3dc2bd.png)
 
 **Heatmap Weighted by Canceled and Non-Cancelled Numbers**
 
 The map presented below shows the number of canceled,non-cancelled and total flights in each airport.The inner circle at each airport is weighted by the total canceled flights and the outer rectangle is weighted by the total non-cancelled flights.
 
-![cancel_noncancel_heatmap](https://user-images.githubusercontent.com/112193116/199296106-c7494123-6457-4caf-b69e-165b3ac909fc.png)
+![cancel_noncancel_heatmap](https://user-images.githubusercontent.com/112193116/199369350-486f7ae4-cb61-48c7-9d19-ea4862af75b5.png)
 
 **Flight Cancellations by Airport**
 
